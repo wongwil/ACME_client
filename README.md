@@ -25,7 +25,7 @@ See more here: https://github.com/letsencrypt/pebble.
 
 ## ACME client
 #### Command-line arguments <a name="arguments"></a>
-The application supports the following command-line arguments (passed to the `run` file):
+The application supports the following command-line arguments:
 
 **Positional arguments:**
 - `Challenge type`
@@ -42,7 +42,7 @@ _(required, multiple)_ `DOMAIN`  is the domain for  which to request the certifi
 _(optional)_ If present, your application should immediately revoke the certificate after obtaining it. In both cases, your application should start its HTTPS server and set it up to use the newly obtained certificate.
 
 **Example:**
-Consider the following invocation of `run`:
+Consider the following example:
 ```
 run dns01 --dir https://example.com/dir --record 1.2.3.4 --domain netsec.ethz.ch --domain syssec.ethz.ch
 ```
