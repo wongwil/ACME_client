@@ -2,6 +2,8 @@
 An application that implements Automatic Certificate Management Environment (ACME) ([RFC8555](https://tools.ietf.org/html/rfc8555)).
 This is a personal project for the course Network Security 2023 at ETH Zurich. It contains the necessary functionalities to request and obtain certificates using the ACME protocol.
 
+![image](https://github.com/wongwil/ACME_client/assets/11984597/382ef3c6-ffbe-4a3d-8dce-c8a8dfdf1b98)
+
 ## Components
 - *ACME client:* An ACME client which can interact with a standard-conforming ACME server.
 - *DNS server:* A DNS server which resolves the DNS queries of the ACME server.
